@@ -129,5 +129,5 @@ if __name__=='__main__':
         datefmt='%Y-%m-%d %H:%M:%S', filemode='a+')
 	server=SocketServer.ThreadingTCPServer(('',8888),socks5TcpHandler)
 	print 'Start server at port 8888'
-	logging.info('Start server at port 8888')
+	logging.info('Start server at port 8888') #log_write
 	server.serve_forever() #start server
