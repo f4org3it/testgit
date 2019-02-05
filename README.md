@@ -3,5 +3,5 @@
 ## title 1
 
 test branching
-both modified 1 
+both modified final 
 ## title 2
